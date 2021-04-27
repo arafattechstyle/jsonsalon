@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Make your json look smart</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="scripts/format.js"></script>
+</head>
+
+<body>
+
+<div class="top-nav">
+  <h1 class="top-nav-heading">Json Salon</h1>
+</div>
+<div class="bg-img">
+<!-- <img src="images/tshop.jpg"> -->
+  <form>
+    <div class="jsInputBox">
+      <pre>
+        <textarea class="ta input" id="jsonInput" name="jsonIn" rows="30" cols="80" placeholder="Paste your json here"></textarea>
+      </pre>
+    </div>
+    <button type="reset" onclick="clear()" class="button reset">Clear</button>
+    <button type="button" onclick="pretty(document.getElementById('jsonInput').value)" class="button format">Format</button>
+  </form>
+  </div>
+
+<div class="bottom-nav">
+  <p class="copyrights"> &#169; Designed by <span class="letter-A">A</span>rafat</p>
+</div>
+
+</body>
+
+</html>
